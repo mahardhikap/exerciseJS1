@@ -7,7 +7,7 @@ const bahasaInggris = 100;
 const ipa = 90;
 
 const rapor = (mtk, bahasaIndonesia, bahasaInggris, ipa) => {
-  if (mtk === undefined || typeof mtk !== 'number' || bahasaIndonesia === undefined || typeof bahasaIndonesia !== 'number' || bahasaInggris === undefined || typeof bahasaInggris !== 'number' || ipa === undefined || typeof ipa !== 'number') {
+  if (typeof mtk !== 'number' || typeof bahasaIndonesia !== 'number' || typeof bahasaInggris !== 'number' || typeof ipa !== 'number') {
     console.log('Mohon diisi nilainya dan harus number');
   } else {
     let average = (mtk + bahasaIndonesia + bahasaInggris + ipa) / 4;
