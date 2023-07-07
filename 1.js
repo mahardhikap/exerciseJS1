@@ -37,3 +37,6 @@ const biodata = {
   ],
   interestInCoding: true,
 };
+
+console.log(`Nama skill: ${biodata.skills[0].skillName}`)
+console.log(`Level: ${biodata.skills[0].level}`)
